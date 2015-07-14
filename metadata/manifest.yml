@@ -4,7 +4,7 @@ Architecture: noarch
 Display-Name: Cassandra Database 2.1.7
 Description: "Cassandra is a multi-user, multi-threaded NoSQL database server."
 Version: '2.1.7'
-Versions: [1.2.5, 2.1.7]
+Versions: [2.1.7]
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: rc
 License: GPL
@@ -31,7 +31,7 @@ Cart-Data:
     Type: cart_data
     Description: "Cassandra DB connection URL"
 Provides:
-  - cassandra-1.2.5
+  - cassandra-2.1.7
   - cassandra 
   - cassandra-singleton-master
 Publishes:
