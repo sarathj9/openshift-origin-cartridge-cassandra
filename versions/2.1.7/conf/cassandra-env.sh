@@ -204,7 +204,7 @@ fi
 startswith() { [ "${1#$2}" != "$1" ]; }
 
 # Per-thread stack size.
-JVM_OPTS="$JVM_OPTS -Xss256k"
+JVM_OPTS="$JVM_OPTS -Xss2048k"
 
 # Larger interned string table, for gossip's benefit (CASSANDRA-6410)
 JVM_OPTS="$JVM_OPTS -XX:StringTableSize=1000003"
